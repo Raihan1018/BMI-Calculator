@@ -1,0 +1,28 @@
+.mainDiv {
+  border: 2px solid cyan;
+  padding: 20px;
+  padding-bottom: 40px;
+  color: rgb(79, 17, 223);
+  width: 50%;
+  margin: auto;
+  border-radius: 20px;
+}
+
+.inputDiv label {
+  font-size: 30px;
+}
+#h-input {
+  padding: 5px;
+}
+#w-input {
+  padding: 5px;
+}
+
+#btn {
+  padding: 15px 30px;
+  border: none;
+  background-color: cyan;
+  border-radius: 10px;
+  font-size: 15px;
+  cursor: pointer;
+}

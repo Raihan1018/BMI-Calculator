@@ -1,0 +1,57 @@
+<!-- index.html file -->
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>BMI Calculator</title>
+    <style>
+      .container {
+        border: 2px solid cyan;
+        padding: 20px;
+        width: 50%;
+        margin: auto;
+        border-radius: 20px;
+      }
+      p {
+        font-size: 20px;
+      }
+      input {
+        padding: 10px;
+      }
+      button {
+        background-color: orchid;
+        padding: 15px 30px;
+        border: none;
+        border-radius: 10px;
+        cursor: pointer;
+        font-size: 20px;
+      }
+      #result {
+        font-size: 25px;
+        margin-top: 10px;
+        margin-left: 10px;
+      }
+    </style>
+  </head>
+  <body style="background-color: rgb(244, 255, 244)">
+    <div class="container">
+      <h1>BMI Calculator</h1>
+
+      <p>Height (in cm)</p>
+
+      <input type="text" id="height" />
+
+      <p>Weight (in kg)</p>
+
+      <input type="text" id="weight" />
+      <br />
+      <br />
+
+      <button id="btn">Calculate</button>
+
+      <div id="result"></div>
+    </div>
+    <script src="app.js"></script>
+  </body>
+</html>
